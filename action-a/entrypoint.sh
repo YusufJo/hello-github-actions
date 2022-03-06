@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-exit 10
+echo "Hello, $INPUT_MY_NAME"

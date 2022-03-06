@@ -1,7 +1,12 @@
 name: A workflow for my hello world file
 on:
   push:
+    branches:
+      - main
+
   pull_request:
+    branches:
+      - main
 
 jobs:
   build:
